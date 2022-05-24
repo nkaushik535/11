@@ -1,1 +1,5 @@
 # 11[12.pdf](https://github.com/nkaushik535/11/files/8761989/12.pdf)
+sns.barplot(y=data.index,x=data,orient='h')
+plt.xlabel('Matches Played')
+plt.ylabel('Team')
+plt.show()
